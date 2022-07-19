@@ -1,0 +1,124 @@
+html {
+	box-sizing: border-box;
+}
+*, 
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.all {
+	background-color: #E8E8FD;
+	min-height: 100vh;
+}
+.container {
+	padding: 50px 150px;
+}
+.h1 {
+	color: #0000FF;
+	text-align: center;
+}
+.label {
+	display: block;
+}
+.input {
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 2px solid #0000FF;
+	margin: 10px 0;
+	margin-top: 5px;
+}
+.p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+.select {
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 2px solid #0000FF;
+	margin: 10px 0;
+	margin-top: 5px;
+}
+.box {
+	border: none;
+}
+.box2 {
+	border: none;
+}
+.label2 {
+	display: block;
+	margin-top: 10px;
+}
+.label3 {
+	display: block;
+	margin-top: 15px;
+}
+.bottom {
+	padding-top: 35px;
+}
+.textarea {
+	width: 100%;
+	resize: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 2px solid #0000FF;
+	font-size: 15px;
+}
+.btn {
+	width: 100%;
+	font-size: 20px;
+	color: #fff;
+	background-color: #0000FF;
+	border: none;
+	padding: 10px 0;
+	border-radius: 5px;
+}
+.text4 {
+	padding-bottom: 5px;
+}
+@media (max-width: 1400px) {
+	.container {
+		padding: 30px 100px;
+	}
+}
+@media (max-width: 1300px) {
+	.container {
+		padding: 20px 50px;
+	}
+}
+@media (max-width: 1150px) {
+	.container {
+		padding: 10px 30px;
+	}
+}
+@media (max-width: 585px) {
+	.p {
+		font-size: 15px;
+		text-align: center;
+	}
+}
+@media (max-width: 500px) {
+	.h1 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 432px) {
+	.text {
+		text-align: center;
+	}
+	.text2 {
+		text-align: center;
+	}
+	.text4 {
+		text-align: center;
+	}
+}
